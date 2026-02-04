@@ -30,6 +30,3 @@ This small website demonstrates an interactive bubble animation / effect using p
 ## License ⚖️
 Add a license of your choice (e.g., MIT). Replace this line with your chosen license details.
 
----
-
-> Need any specific sections added (screenshots, live demo link, or deployment instructions)? Tell me what you'd like and I can update the README.
