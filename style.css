@@ -1,0 +1,85 @@
+/* Global Styles */
+html, body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background: #1a1a1a;
+    color: #fff;
+    overflow-x: hidden;
+  }
+  
+  /* Header Styling */
+  header {
+    position: relative;
+    text-align: center;
+    padding: 50px 0;
+    background: linear-gradient(135deg, #2a2a2a, #000);
+    overflow: hidden;
+  }
+  
+  header h1 {
+    font-size: 3em;
+    margin: 0;
+    position: relative;
+    z-index: 2;
+  }
+  
+  /* Section Styling */
+  section {
+    padding: 50px 20px;
+    text-align: center;
+  }
+  
+  section h2 {
+    margin-bottom: 20px;
+    font-size: 2em;
+  }
+  
+  section p {
+    max-width: 600px;
+    margin: 0 auto 20px;
+    line-height: 1.6;
+  }
+  
+  /* Button Styling */
+  .btn {
+    background: #ff5c5c;
+    border: none;
+    padding: 15px 30px;
+    font-size: 1em;
+    color: #fff;
+    cursor: pointer;
+    transition: background 0.3s ease;
+  }
+  
+  .btn:hover {
+    background: #ff8c8c;
+  }
+  
+  /* Animated Bubble Effect */
+  .bubble {
+    position: absolute;
+    bottom: -100px;
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 50%;
+    animation: rise 10s infinite ease-in;
+  }
+  
+  @keyframes rise {
+    0% {
+      transform: translateY(0) scale(0.5);
+      opacity: 0.8;
+    }
+    100% {
+      transform: translateY(-1200px) scale(1);
+      opacity: 0;
+    }
+  }
+  
+  /* Footer Styling */
+  footer {
+    text-align: center;
+    padding: 20px;
+    background: #111;
+  }
+  
