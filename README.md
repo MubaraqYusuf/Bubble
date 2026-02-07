@@ -11,7 +11,6 @@ This small website demonstrates an interactive bubble animation / effect using p
 - `index.html` — Main HTML page
 - `style.css` — Styles and layout
 - `script.js` — JavaScript logic and interactions
-- `README.md` — This file
 
 ## Run locally ▶️
 1. Open `index.html` in your browser (double-click the file).
